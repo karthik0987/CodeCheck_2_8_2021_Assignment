@@ -1,0 +1,14 @@
+Given three numbers x, y, z, print out how whether they are all distinct, two are the same, or all three are the same. 
+
+# Given three numbers x, y, z, print out how whether they are all distinct with "Distinct",
+# two are the same "Two", or all three are the same "All".
+
+x = 0 
+y = 0 
+z = 0 
+if (x==y and y==z and z==x):
+   print("All")
+elif (x==y and y==z) or (x==y and y!=z) or (x!=y and y==z):
+   print("Two")
+else:
+   print("Distinct")
